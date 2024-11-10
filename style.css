@@ -1,0 +1,49 @@
+body {
+    background-color: rgba(46, 46, 116, 0.418);
+}
+/* TOPBAR */
+    .TopBar {
+        background-color: rgba(255, 0, 0, 0);
+        margin-right:auto;
+        margin: 0 auto;
+        margin-left: apx;
+        text-align: center;
+        max-width: 200px;
+        
+    }
+    .TopBar a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family:"Doto", sans-serif ;
+        font-size:20px;
+    }
+    .TopBar hr {
+        border-color: rgba(165, 42, 42, 0.267);
+    }
+    .TopBar-list {
+        list-style-type:none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .TopBar-list li {
+        margin-right: 10px;
+    }
+    .TopBar-list a:hover {
+        color: red;
+    }
+/*Discord Status*/
+    .Discord-Status {
+        max-width: 410px;
+        height: 250px;
+        background-color: rgba(255, 0, 0, 0);
+        margin:0 auto;
+        margin-top: 200px;
+    }
+    .Discord-Status-Web {
+        max-width: 410px;
+        height: 250px;
+        width: 100%;
+        border: none;
+    }
